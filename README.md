@@ -4,7 +4,7 @@
 
 Create .env file and fill it with the data below
 
-```
+```.env
 DB_NAME=
 DB_USER=
 DB_PASSWORD=
@@ -16,12 +16,13 @@ Create database as in DB_NAME
 
 ## How to run project
 
-```
+```bash
 uvicorn app.main:app --reload
 ```
 
 ### File Structure
-```
+
+```bash
 ├── app
 │   ├── auth
 │   │   ├── models.py
